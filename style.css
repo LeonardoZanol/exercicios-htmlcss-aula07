@@ -184,6 +184,36 @@ span {
     font-size: 20px;
 }
 
+.card-contato {
+    background-color: #fff;
+    width: 800px;
+    text-align: justify;
+    border: 5px solid rgb(134, 2, 2);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.card-contato h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.card-contato ul {
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+.card-contato ul li {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.linha-redes-sociais a {
+    color: rgb(134, 2, 2);
+}
+
 footer {
     bottom: 0;
     position: fixed;

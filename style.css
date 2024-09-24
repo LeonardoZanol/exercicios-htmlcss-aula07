@@ -222,7 +222,7 @@ span {
 }
 
 .form-header {
-    font-size: 30px;
+    font-size: 40px;
     color: rgb(134, 2, 2);
     margin-bottom: 10px;
 }
@@ -267,7 +267,7 @@ span {
 
 .form-button button {
     width: 250px;
-    height: 50px;
+    height: 70px;
     font-size: 25px;
     background-color: rgb(134, 2, 2);
     border: none;

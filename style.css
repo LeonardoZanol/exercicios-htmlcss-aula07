@@ -60,32 +60,6 @@ a, a:link, a:visited {
     color: #fff;
 }
 
-.linha-colorida {
-    width: 100%;
-    height: 10px; /* altura da linha */
-    display: flex;
-}
-
-.linha-colorida::before {
-    content: '';
-    background-color: red;
-    width: 33.33%; /* Cada cor ocupa um terço da largura */
-    height: 100%;
-}
-
-.linha-colorida::after {
-    content: '';
-    background-color: yellow;
-    width: 33.33%;
-    height: 100%;
-}
-
-.linha-colorida {
-    background-color: green;
-    width: 33.33%;
-    height: 100%;
-}
-
 section {
     display: flex;
     flex-direction: column;
@@ -157,6 +131,13 @@ span {
 .sobre-evento p {
     margin-bottom: 10px;
     font-size: 25px;
+}
+
+.linha-sobre-evento {
+    font-weight: bold;
+    color: rgb(156, 1, 1);
+    text-align: center;
+    margin-top: 20px;
 }
 
 .title-page-tam-normal {

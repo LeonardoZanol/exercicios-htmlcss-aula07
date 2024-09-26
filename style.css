@@ -263,8 +263,9 @@ span {
     transition: transform 0.3s ease;
 }
 
-.input-box input:hover {
+.input-box input:focus {
     transform: scale(1.05);
+    outline: none;
 }
 
 .form-button {
